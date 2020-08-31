@@ -2,9 +2,17 @@
     opacity: 0.40;
 }
 
+.sheets {
+  border-color: transparent
+}
+
 .agenda-widget h3 {
     background-color: #00134d;
     color: white;
+}
+
+.full-width {
+  border-color: transparent;
 }
 
 #notificatie-widget h3 {
@@ -23,6 +31,18 @@ h3.ng-scope {
 }
 h1 {
     color: #002080;
+}
+
+.head-bar h1::after {
+  background: transparent;
+}
+
+.fa-layers-counter {
+    background-color: #c71585;
+}
+
+h1.ng-binding::after {
+    background-color: transparent;
 }
 
 .menu-footer {
